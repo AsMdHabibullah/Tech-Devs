@@ -1,0 +1,43 @@
+// All mixin
+
+
+=clear-top
+    margin-top: 100px
+
+=clear-small
+    margin-top: 30px
+
+=clear-bottom
+    margin-bottom: 50px
+
+=button()
+    background: $white
+    color: $black
+    text-transform: uppercase
+    border: 1px solid $sky-blue
+    border-radius: 2px
+    transition: all .5s
+
+=gradian($gc_one, $gc_two)
+    background: linear-gradient($gc_one, $gc_two)
+
+=linear-gradient($gc_one, $gc_two)
+    background: linear-gradient(to right, $gc_one 0, $gc_two 100%)
+
+=hr
+    width: 20%
+    height: 2px
+    background: $black
+
+=horijontal-stick
+    width: 8%
+    height: 4px
+    background: $sky-blue
+    position: absolute
+    left: 0px
+    bottom: -10px
+
+=vartical-stick
+    width: 1%
+    height: 50px
+    background: $sky-blue

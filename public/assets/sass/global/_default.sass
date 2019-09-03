@@ -1,0 +1,35 @@
+// All default css
+
+body
+    background: $bg-color
+
+#root
+    +linear-gradient($bg-color, $white-dark)
+
+.btn-info
+    +button
+
+.btn-info:hover
+    background: $sky-blue
+    border: 1px solid $white
+    color: $white
+
+
+hr
+    +hr
+
+.heading
+    font-size: 30px
+    margin-bottom: 30px
+    text-transform: capitalize
+    font-weight: 700
+    position: relative
+    left: 0
+
+.heading:before
+    content: ''
+    +horijontal-stick
+
+.container>p
+    width: 46%
+    +clear-bottom

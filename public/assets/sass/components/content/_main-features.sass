@@ -1,0 +1,41 @@
+
+.main-features
+    width: 100%
+    min-height: 65vh
+    +clear-top
+    
+    .feature-item
+        margin-bottom: 26px
+        position: relative
+        padding: 38px 20px 38px
+        background: #fff
+        text-align: center
+        border-radius: 5px
+        box-shadow: 0 0 35px rgba(0, 0, 0, 0.1)
+        transition: all 1s
+    
+    .services-icon
+        width: 32%
+        font-size: 64px
+        margin: 0 auto
+        overflow: hidden
+        text-align: center
+        border-radius: 100%
+        color: #ffffff
+        background: linear-gradient(to right, $pink 0, $sky-blue 100%)
+        transition: all 1s
+    
+    .service-text
+        overflow: hidden
+        padding: 10px
+    
+    .feature-item:hover
+        +linear-gradient($pink, $sky-blue)
+        color: $white
+
+        h4, p
+            color: $white
+
+    .feature-item:hover .services-icon
+        background: $white
+        color: $black

@@ -1,0 +1,42 @@
+
+
+.our-team
+    width: 100%
+    min-height: 72vh
+    +clear-top
+
+    .card
+        padding: 30px 0px 0px
+        position: relative
+
+    .card-img
+        width: 80%
+        height: 28vh
+        margin: auto
+        padding: 30px
+        border-radius: 100%
+
+    .card-body
+        width: 100%
+        height: auto
+        +linear-gradient($pink, $sky-blue)
+        color: $white !important
+        bottom: 0
+        right: 0
+        transition: all 0.5s ease 0s
+
+    .card-title
+        padding: 15px 0
+
+    .card-text
+        visibility: hidden
+        text-transform: capitalize
+        transition: all 0.5s ease 0s
+        color: $white !important
+    
+    .card:hover .card-body
+        padding: 30px 0
+
+        .card-text
+            visibility: visible
+

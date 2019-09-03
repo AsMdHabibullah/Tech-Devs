@@ -1,0 +1,37 @@
+.about-us
+    width: 100%
+    min-height: 500px
+    +clear-top
+
+    .about-img
+        width: 100%
+
+    .about-smallservice
+        width: 100%
+        min-height: 90px
+        background: $gray-dark
+        color: $white
+        transition: all 1s
+        +clear-small
+
+        i
+            font-size: 40px
+            width: 15%
+            height: 70%
+            display: flex
+            position: absolute
+            justify-content: center
+            align-items: center
+        h5
+            font-size: 20px
+            width: 85%
+            height: 100%
+            display: flex
+            justify-content: center
+            align-items: center
+            float: right
+            padding: 10px
+        
+    .about-smallservice:hover
+        +linear-gradient($pink, $sky-blue)
+        transition: all 1s
